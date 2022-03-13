@@ -10,6 +10,7 @@ The transmission was sent using the 'Buoyancy Interchange Transmission System (B
 
 The first step of decoding the message is to convert the hexadecimal representation into binary. Each character of hexadecimal corresponds to four bits of binary data:
 
+====
  0 = 0000
  1 = 0001
  2 = 0010
@@ -26,6 +27,7 @@ The first step of decoding the message is to convert the hexadecimal representat
  D = 1101
  E = 1110
  F = 1111
+====
 
 The BITS transmission contains a single *packet* at its outermost layer which itself contains many other packets. The hexadecimal representation of this packet might encode a few extra `0` bits at the end; these are not part of the transmission and should be ignored.
 
