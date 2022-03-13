@@ -8,8 +8,10 @@ jobs:
         uses: actions/checkout@v2
       - name: Compile asciidoctor document
         uses: lmoesle/asciidoc-action@latest
-      - name: Upload Pdf
-        uses: actions/upload-artifact@v2
+      - name: Upload 'Packet Decoder'
+        uses: actions/upload-artifact@v3
         with:
-          name: upload pdf
-          path: packet-decoder/puzzle.pdf
+          name: Packet Decoder
+          path: |
+            packet-decoder/
+            !**/*.adoc
