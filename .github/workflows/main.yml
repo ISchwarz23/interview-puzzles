@@ -15,3 +15,10 @@ jobs:
           path: |
             packet-decoder/
             !**/*.adoc
+      - name: Upload 'sea-cucumber'
+        uses: actions/upload-artifact@v3
+        with:
+          name: sea-cucumber
+          path: |
+            sea-cucumber/
+            !**/*.adoc

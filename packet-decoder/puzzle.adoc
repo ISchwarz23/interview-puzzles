@@ -3,7 +3,7 @@ Ingo Schwarz <ingo.schwarz23@gmail.com>
 :description: A programming puzzle that aims on writing clean code even for complex issues.
 :url-repo: https://github.com/ISchwarz23/interview-puzzles
 
-== Description
+== Explanation
 You are the software engineer on an aircraft receiving a transmission from the ground.
 
 The transmission was sent using the 'Buoyancy Interchange Transmission System (BITS), a method of packing numeric expressions into a binary sequence. Your aircraft's computer has saved the transmission in hexadecimal (your puzzle input).
@@ -93,13 +93,7 @@ For now, parse the hierarchy of the packets throughout the transmission and *add
 * `C0015000016115A2E0802F182340` has the same structure as the previous example, but the outermost packet uses a different length type ID. This packet has a version sum of `23`.
 * `A0016C880162017C3686B18A3D4780` is an operator packet that contains an operator packet that contains an operator packet that contains five literal values; it has a version sum of `31`
 
-Decode the structure of your hexadecimal-encoded BITS transmission; *what do you get if you add up the version numbers in all packets?*
-
-.Click to reveal the answer
-[%collapsible]
-====
-The corret answer is `843`.
-====
+Decode the structure of your hexadecimal-encoded BITS transmission; *what do you get if you add up the version numbers in all packets? (using data from input.txt)*
 
 == Assignment 2
 Now that you have the structure of your transmission decoded, you can calculate the value of the expression it represents.
@@ -127,4 +121,4 @@ For example:
 * `9C005AC2F8F0` produces `0`, because `5` is not equal to `15`.
 * `9C0141080250320F1802104A08` produces `1`, because `1 + 3 = 2 * 2`.
 
-*What do you get if you evaluate the expression represented by your hexadecimal-encoded BITS transmission?*
+*What do you get if you evaluate the expression represented by your hexadecimal-encoded BITS transmission? (using data from input.txt)*

@@ -1,5 +1,5 @@
-all: build-packet-decoder-puzzle
+all: generate-puzzle-pdfs
 
-.PHONY: all
-build-packet-decoder-puzzle:
-	asciidoctor-pdf packet-decoder/puzzle.adoc
+.PHONY: generate-puzzle-pdfs
+generate-puzzle-pdfs: $(wildcard *.adoc)
+	asciidoctor-pdf $?
