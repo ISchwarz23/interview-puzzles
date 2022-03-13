@@ -1,0 +1,15 @@
+name: Build asciidoctor document
+on: [push]
+jobs:
+  build_asciidoctor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Compile asciidoctor document
+        uses: lmoesle/asciidoc-action@latest
+      - name: Upload Pdf
+        uses: actions/upload-artifact@v2
+        with:
+          name: upload pdf
+          path: packet-decoder/puzzle.pdf
