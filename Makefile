@@ -1,5 +1,5 @@
-all: build
+all: build-packet-decoder-puzzle
 
-.PHONY: build
-build:
+.PHONY: all
+build-packet-decoder-puzzle:
 	asciidoctor-pdf packet-decoder/puzzle.adoc
