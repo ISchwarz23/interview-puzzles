@@ -16,3 +16,5 @@ The puzzles are ready for download at Actions -> Generate Puzzles -> Artifacts
 - improve workflow to iterate over folders (instead of explicit adaptation for each puzzle)
 - add section about what is the goal of the assignments (code quality, tests, ...)
 - add Roman Minerals puzzle
+- adapt asciidoc theme: https://github.com/asciidoctor/asciidoctor-pdf
+
