@@ -1,7 +1,11 @@
 = Sea Cucumber
+:description: A programming puzzle that aims on writing clean code.
+:url-repo: https://github.com/ISchwarz23/interview-puzzles
 
+== Things you should consider
+include::../things-to-consider.adoc[]
 
-== Explanation
+== Problem description
 You are inside a submarine looking for your keys, that fell into the ocean.
 
 This is it: the bottom of the ocean trench, the last place the sleigh keys could be. Your submarine's experimental antenna *still isn't boosted enough* to detect the keys, but they must be here. All you need to do is *reach the seafloor* and find them.

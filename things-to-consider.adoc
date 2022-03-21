@@ -1,0 +1,14 @@
+Of cause your solution for this puzzle shall produce the correct solutions in acceptable time, but *it is not about solving the problem quickly nor about the fanciest solution.*
+
+Write the cleanest code you can considering the following principles:
+
+- Keep your solution simple and understandable -> KISS
+- Avoid repeating yourself as much as possible (even between production and test classes) -> DRY
+- Help yourself by automate verification of your results. You can even write the verification/tests before your actual solution -> TDD
+
+You should be able to answer the following questions afterwards:
+
+- What have you learned solving the puzzle?
+- What would you try differently next time when doing this puzzle?
+- What part of your solution are you especially proud of?
+  

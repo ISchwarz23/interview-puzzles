@@ -1,9 +1,11 @@
 = Packet Decoder
-Ingo Schwarz <ingo.schwarz23@gmail.com>
 :description: A programming puzzle that aims on writing clean code even for complex issues.
 :url-repo: https://github.com/ISchwarz23/interview-puzzles
 
-== Explanation
+== Things you should consider
+include::../things-to-consider.adoc[]
+
+== Problem description
 You are the software engineer on an aircraft receiving a transmission from the ground.
 
 The transmission was sent using the 'Buoyancy Interchange Transmission System (BITS), a method of packing numeric expressions into a binary sequence. Your aircraft's computer has saved the transmission in hexadecimal (your puzzle input).
