@@ -6,7 +6,7 @@ The following table shows all available puzzles and their characteristics.
 | Name           | Complexity | Keywords                    |
 | ---            | ---        | ---                         |
 | sea-cucumber   | 2/5        | #basics                     |
-| packet-decoder | 4/5        | #parsing-messages #protocol |
+| packet-decoder | 4/5        | #message-pasrsing #protocol |
 
 ## Puzzle structure
 A puzzle is usually made of the following files.
