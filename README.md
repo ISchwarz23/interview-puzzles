@@ -24,3 +24,10 @@ These files contain the solution for the respective assignment. This can be used
 
 ## Where can I download the puzzles?
 The puzzles are ready for download at Actions -> select latest workflow run -> Artifacts
+
+## Puzzle Ideas
+- https://adventofcode.com/2021/day/4
+- https://adventofcode.com/2021/day/12
+- https://adventofcode.com/2021/day/15
+- https://adventofcode.com/2021/day/17
+- https://adventofcode.com/2021/day/21
