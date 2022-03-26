@@ -1,7 +1,7 @@
 # Interview Puzzles
 A collection of puzzles that can be used as interview qualification.
 
-## Puzzle Overview
+## 📚 Puzzle Overview
 The following table shows all available (and planned) puzzles and their characteristics.
 | Name                | Complexity | Keywords                    | Source                                                        |
 | ------------------- | ---------- | --------------------------- | ------------------------------------------------------------- |
@@ -20,7 +20,7 @@ The following table shows all available (and planned) puzzles and their characte
 | reactor-reboot[^na] | 🤯 (5/5)   | #performance                | [Advent of Code (2021)](https://adventofcode.com/2021/day/22) |
 | amphipod[^na]       | 🤯 (5/5)   | #path-finding #performance  | [Advent of Code (2021)](https://adventofcode.com/2021/day/23) |
 
-## Puzzle structure
+## 🧩 Puzzle structure
 A puzzle is usually made of the following files.
 
 ### puzzle.pdf (generated from puzzle.adoc)
@@ -37,7 +37,7 @@ These files contain the solution for the respective assignment. This can be used
 ## Where can I download the puzzles?
 The puzzles are ready for download at Actions -> select latest workflow run -> Artifacts
 
-## TODO
+## 🚧 TODO
 - add 'how to work' section, that describes where to find input, solutions, examples (for tests) and states that assignment 2 is harder than assignment 1 and optional
 
 [^na]:
