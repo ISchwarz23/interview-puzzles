@@ -5,11 +5,14 @@ A collection of puzzles that can be used as interview qualification.
 The following table shows all available puzzles and their characteristics.
 | Name            | Complexity | Keywords                    |
 | ---             | ---        | ---                         |
+| 4: Bingo        | 😀 (1/5)   | #basics                     |
 | sea-cucumber    | 🤔 (2/5)   | #basics                     |
-| passage-pathing | 🤔 (2/5)   | #path-finding #permutation  |
+| passage-pathing | 🤔 (2/5)   | #permutation                |
 | packet-decoder  | 😅 (3/5)   | #message-pasrsing #protocol |
-
-😀 🤔 😅 🤪 🤯
+| chiton          | 🤪 (4/5)   | #path-finding               |
+| 17: trick shot  | 🤪 (4/5)   | #maths                      |
+| 21: dirac-dice  | 🤪 (4/5)   | #performance                |
+| 23: amphipod    | 🤯 (5/5)   | #path-finding #performance  |
 
 ## Puzzle structure
 A puzzle is usually made of the following files.
@@ -28,8 +31,5 @@ These files contain the solution for the respective assignment. This can be used
 ## Where can I download the puzzles?
 The puzzles are ready for download at Actions -> select latest workflow run -> Artifacts
 
-## Puzzle Ideas
-- https://adventofcode.com/2021/day/4
-- https://adventofcode.com/2021/day/15
-- https://adventofcode.com/2021/day/17
-- https://adventofcode.com/2021/day/21
+## TODO
+- add 'how to work' section, that describes where to find input, solutions, examples (for tests) and states that assignment 2 is harder than assignment 1 and optional

@@ -8,6 +8,13 @@ jobs:
         uses: actions/checkout@v2
       - name: Compile puzzles to PDF
         uses: lmoesle/asciidoc-action@latest
+      - name: Upload 'chiton'
+        uses: actions/upload-artifact@v3
+        with:
+          name: chiton
+          path: |
+            chiton/
+            !**/*.adoc
       - name: Upload 'packet-decoder'
         uses: actions/upload-artifact@v3
         with:
