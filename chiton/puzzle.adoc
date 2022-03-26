@@ -28,7 +28,7 @@ You start in the top left position, your destination is the bottom right positio
 
 Your goal is to find a path with the *lowest total risk*. In this example, a path with the lowest total risk is highlighted here:
 
-[source,txt,subs="verbatim,quotes"] 
+[source,txt,subs=+macros] 
 ----
 pass:quotes[*_1_*]163751742
 pass:quotes[*_1_*]381373672
