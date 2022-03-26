@@ -9,7 +9,7 @@ The following table shows all available (and planned) puzzles and their characte
 | sea-cucumber        | 🤔 (2/5)   | #basics                     | [Advent of Code (2021)](https://adventofcode.com/2021/day/25) |
 | lantern-fish[^na]   | 🤔 (2/5)   | #basics #rule-sets          | [Advent of Code (2021)](https://adventofcode.com/2021/day/6)  |
 | passage-pathing     | 🤔 (2/5)   | #permutation                | [Advent of Code (2021)](https://adventofcode.com/2021/day/12) |
-| syntax-scoring      | 🤔 (2/5)   | #compiler                   | [Advent of Code (2021)](https://adventofcode.com/2021/day/10) |
+| syntax-scoring[^na] | 🤔 (2/5)   | #compiler                   | [Advent of Code (2021)](https://adventofcode.com/2021/day/10) |
 | packet-decoder      | 😅 (3/5)   | #message-pasrsing #protocol | [Advent of Code (2021)](https://adventofcode.com/2021/day/16) |
 | trench-map[^na]     | 😅 (3/5)   | #filter #optimization       | [Advent of Code (2021)](https://adventofcode.com/2021/day/20) |
 | chiton              | 🤪 (4/5)   | #path-finding               | [Advent of Code (2021)](https://adventofcode.com/2021/day/15) |
