@@ -6,7 +6,7 @@
 include::../things-to-consider.adoc[]
 
 == Problem description
-You've almost reached the exit of the cave, but the walls are getting closer together. Your submarine can barely still fit, though; the main problem is that the walls of the cave are covered in [chitons](https://en.wikipedia.org/wiki/Chiton), and it would be best not to bump any of them.
+You're inside a submarine inside a cave trying to find your way out, but the walls are getting closer together. Your submarine can barely still fit, though; the main problem is that the walls of the cave are covered in https://en.wikipedia.org/wiki/Chiton[chitons], and it would be best not to bump any of them.
 
 The cavern is large, but has a very low ceiling, restricting your motion to two dimensions. The shape of the cavern resembles a square; a quick scan of chiton density produces a map of *risk level* throughout the cave (your puzzle input). For example:
 
