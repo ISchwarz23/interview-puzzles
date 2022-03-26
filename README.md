@@ -2,17 +2,22 @@
 A collection of puzzles that can be used as interview qualification.
 
 ## Puzzle Overview
-The following table shows all available puzzles and their characteristics.
-| Name            | Complexity | Keywords                    |
-| ---             | ---        | ---                         |
-| 4: Bingo        | 😀 (1/5)   | #basics                     |
-| sea-cucumber    | 🤔 (2/5)   | #basics                     |
-| passage-pathing | 🤔 (2/5)   | #permutation                |
-| packet-decoder  | 😅 (3/5)   | #message-pasrsing #protocol |
-| chiton          | 🤪 (4/5)   | #path-finding               |
-| 17: trick shot  | 🤪 (4/5)   | #maths                      |
-| 21: dirac-dice  | 🤪 (4/5)   | #performance                |
-| 23: amphipod    | 🤯 (5/5)   | #path-finding #performance  |
+The following table shows all available (and planned) puzzles and their characteristics.
+| Name               | Complexity | Keywords                    |
+| ---                | ---        | ---                         |
+| 4: bingo           | 😀 (1/5)   | #basics                     |
+| sea-cucumber       | 🤔 (2/5)   | #basics                     |
+| 6: lantern-fish    | 🤔 (2/5)   | #basics #rule-sets          |
+| passage-pathing    | 🤔 (2/5)   | #permutation                |
+| packet-decoder     | 😅 (3/5)   | #message-pasrsing #protocol |
+| 20: trench-map     | 😅 (3/5)   | #filter #optimization       |
+| chiton             | 🤪 (4/5)   | #path-finding               |
+| 17: trick-shot     | 🤪 (4/5)   | #maths                      |
+| 18: snailfish      | 🤪 (4/5)   | #rules #data-structure      |
+| 19: beacon-scanner | 🤪 (4/5)   | #logic #geometry            |
+| 21: dirac-dice     | 🤪 (4/5)   | #performance                |
+| 22: reactor-reboot | 🤯 (5/5)   | #performance                |
+| 23: amphipod       | 🤯 (5/5)   | #path-finding #performance  |
 
 ## Puzzle structure
 A puzzle is usually made of the following files.
