@@ -15,6 +15,13 @@ jobs:
           path: |
             packet-decoder/
             !**/*.adoc
+      - name: Upload 'passage-pathing'
+        uses: actions/upload-artifact@v3
+        with:
+          name: passage-pathing
+          path: |
+            passage-pathing/
+            !**/*.adoc
       - name: Upload 'sea-cucumber'
         uses: actions/upload-artifact@v3
         with:

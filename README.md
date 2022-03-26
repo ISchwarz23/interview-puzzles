@@ -3,12 +3,13 @@ A collection of puzzles that can be used as interview qualification.
 
 ## Puzzle Overview
 The following table shows all available puzzles and their characteristics.
-| Name           | Complexity | Keywords                    |
-| ---            | ---        | ---                         |
-| sea-cucumber   | 😅 (2/5)   | #basics                     |
-| packet-decoder | 🤪 (4/5)   | #message-pasrsing #protocol |
+| Name            | Complexity | Keywords                    |
+| ---             | ---        | ---                         |
+| sea-cucumber    | 🤔 (2/5)   | #basics                     |
+| passage-pathing | 🤔 (2/5)   | #path-finding #permutation  |
+| packet-decoder  | 😅 (3/5)   | #message-pasrsing #protocol |
 
-😀 😅 🤔 🤪 🤯
+😀 🤔 😅 🤪 🤯
 
 ## Puzzle structure
 A puzzle is usually made of the following files.
@@ -29,7 +30,6 @@ The puzzles are ready for download at Actions -> select latest workflow run -> A
 
 ## Puzzle Ideas
 - https://adventofcode.com/2021/day/4
-- https://adventofcode.com/2021/day/12
 - https://adventofcode.com/2021/day/15
 - https://adventofcode.com/2021/day/17
 - https://adventofcode.com/2021/day/21
