@@ -5,6 +5,7 @@ A collection of puzzles that can be used as interview qualification.
 The following table shows all available (and planned) puzzles and their characteristics.
 |                         | Name            | Complexity | Keywords                    | Source                                                        |
 | ----------------------- | --------------- | ---------- | --------------------------- | ------------------------------------------------------------- |
+| [⬇][dl-bingo]           | bingo           | 😀 (1/5)    | #basics                     | [Advent of Code (2021)](https://adventofcode.com/2021/day/4)  |
 | [⬇][dl-sea-cucumber]    | sea-cucumber    | 🤔 (2/5)    | #basics                     | [Advent of Code (2021)](https://adventofcode.com/2021/day/25) |
 | [⬇][dl-passage-pathing] | passage-pathing | 🤔 (2/5)    | #permutation                | [Advent of Code (2021)](https://adventofcode.com/2021/day/12) |
 | [⬇][dl-packet-decoder]  | packet-decoder  | 😅 (3/5)    | #message-pasrsing #protocol | [Advent of Code (2021)](https://adventofcode.com/2021/day/16) |
@@ -32,7 +33,6 @@ The puzzles are ready for download at Actions -> select latest workflow run -> A
 The following puzzles shall be added to this repo.
 | Name           | Complexity | Keywords                   | Source                                                        |
 | -------------- | ---------- | -------------------------- | ------------------------------------------------------------- |
-| bingo          | 😀 (1/5)    | #basics                    | [Advent of Code (2021)](https://adventofcode.com/2021/day/4)  |
 | lantern-fish   | 🤔 (2/5)    | #basics #rule-sets         | [Advent of Code (2021)](https://adventofcode.com/2021/day/6)  |
 | syntax-scoring | 🤔 (2/5)    | #compiler                  | [Advent of Code (2021)](https://adventofcode.com/2021/day/10) |
 | trench-map     | 😅 (3/5)    | #filter #optimization      | [Advent of Code (2021)](https://adventofcode.com/2021/day/20) |
@@ -48,7 +48,7 @@ The following puzzles shall be added to this repo.
 - write github workflow step, which enables iterative use of `actions/upload-artifact@v3`
 
 
-
+[dl-bingo]: download-link
 [dl-sea-cucumber]: download-link
 [dl-passage-pathing]: download-link
 [dl-packet-decoder]: download-link
