@@ -47,5 +47,5 @@ The puzzles are ready for download at Actions -> select latest workflow run -> A
 [dl-sea-cucumber]: https://github.com/ISchwarz23/interview-puzzles/actions
 [dl-passage-pathing]: https://github.com/ISchwarz23/interview-puzzles/actions
 [dl-packet-decoder]: https://github.com/ISchwarz23/interview-puzzles/actions
-[dl-chiton]: https://github.com/ISchwarz23/interview-puzzles/actions
+[dl-chiton]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/chiton
 [dl-reactor-reboot]: https://github.com/ISchwarz23/interview-puzzles/actions

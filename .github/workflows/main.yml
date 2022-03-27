@@ -1,62 +1,25 @@
 name: Generate Puzzles
 on: [push]
 jobs:
-  build_asciidoctor:
+  build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - puzzle_name: bingo
+          - puzzle_name: chiton
     steps:
-      - name: Set up Git repository
+      - name: Set up git repository
         uses: actions/checkout@v2
       - name: Compile puzzles to PDF
         uses: lmoesle/asciidoc-action@latest
-      - name: Upload 'bingo'
-        uses: actions/upload-artifact@v3
-        with:
-          name: bingo
-          path: |
-            bingo/
-            !**/*.adoc
-      - name: Upload 'chiton'
-        uses: actions/upload-artifact@v3
-        with:
-          name: chiton
-          path: |
-            chiton/
-            !**/*.adoc
-      - name: Upload 'packet-decoder'
-        uses: actions/upload-artifact@v3
-        with:
-          name: packet-decoder
-          path: |
-            packet-decoder/
-            !**/*.adoc
-      - name: Upload 'passage-pathing'
-        uses: actions/upload-artifact@v3
-        with:
-          name: passage-pathing
-          path: |
-            passage-pathing/
-            !**/*.adoc
-      - name: Upload 'reactor-reboot'
-        uses: actions/upload-artifact@v3
-        with:
-          name: reactor-reboot
-          path: |
-            reactor-reboot/
-            !**/*.adoc
-      - name: Upload 'sea-cucumber'
-        uses: actions/upload-artifact@v3
-        with:
-          name: sea-cucumber
-          path: |
-            sea-cucumber/
-            !**/*.adoc
-      - name: Create 'chiton' zip
-        run: zip -r chiton.zip chiton/ -x "*.adoc"
-      - name: Upload binaries to release
+      - name: Create '${{matrix.puzzle_name}}' zip
+        run: zip -D -r ${{matrix.puzzle_name}}.zip ${{matrix.puzzle_name}}/ -x "*.adoc"
+      - name: Upload '${{matrix.puzzle_name}}' to release
         uses: svenstaro/upload-release-action@v2
         with:
           overwrite: true
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: chiton.zip
-          asset_name: chiton
+          file: ${{matrix.puzzle_name}}.zip
+          asset_name: ${{matrix.puzzle_name}}
           tag: latest
