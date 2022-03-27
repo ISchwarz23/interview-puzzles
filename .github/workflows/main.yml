@@ -50,3 +50,13 @@ jobs:
           path: |
             sea-cucumber/
             !**/*.adoc
+      - name: Create 'chiton' zip
+        run: zip -r chiton.zip chiton/ -x "*.adoc"
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          overwrite: true
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: chiton.zip
+          asset_name: chiton
+          tag: latest
