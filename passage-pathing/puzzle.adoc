@@ -2,6 +2,9 @@
 :description: A programming puzzle that aims on writing clean code even for complex issues.
 :url-repo: https://github.com/ISchwarz23/interview-puzzles
 
+== Introduction/Explanation
+include::../explanation.adoc[]
+
 == Things you should consider
 include::../things-to-consider.adoc[]
 

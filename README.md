@@ -43,9 +43,9 @@ The following puzzles shall be added to this repo.
 | amphipod       | 🤯 (5/5)    | #path-finding #performance | [Advent of Code (2021)](https://adventofcode.com/2021/day/23) |
 
 ## 🚧 TODO
-- add 'how to work' section, that describes where to find input, solutions, examples (for tests) and states that assignment 2 is harder than assignment 1 and optional
 - add puzzles from 'puzzles to add' section
 - write github workflow step, that adds a download button to puzzle overview table
+- write github workflow step, which enables iterative use of `actions/upload-artifact@v3`
 
 
 

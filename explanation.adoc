@@ -1,0 +1,6 @@
+Read this file carefully, as it contains hints about things you should consider while solving the puzzle, the puzzle itself and two assignments. The second assignment is a bit more challanging than the first one.
+
+With this puzzle comes also an `input.txt` file, which contains your input for the two assignments. It is the same input for both of them. If you want to validate the correctness of your solution, there is also a `solution-assignment-*.txt` file, which contains the solution for assignment 1 and 2 respectively.
+
+This said, you are now free to jump right into the puzzle. Have fun!
+  
