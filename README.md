@@ -3,14 +3,14 @@ A collection of puzzles that can be used as interview qualification.
 
 ## 📚 Puzzle Overview
 The following table shows all available (and planned) puzzles and their characteristics.
-|                         | Name                                           | Complexity | Keywords                    | Source                                                        |
-| ----------------------- | ---------------------------------------------- | ---------- | --------------------------- | ------------------------------------------------------------- |
-| [⬇][dl-bingo]           | [bingo](bingo/puzzle.adoc)                     | 😀 (1/5)    | #basics                     | [Advent of Code (2021)](https://adventofcode.com/2021/day/4)  |
-| [⬇][dl-sea-cucumber]    | [sea-cucumber](sea-cucumber/puzzle.adoc)       | 🤔 (2/5)    | #basics                     | [Advent of Code (2021)](https://adventofcode.com/2021/day/25) |
-| [⬇][dl-passage-pathing] | [passage-pathing](passage-pathing/puzzle.adoc) | 🤔 (2/5)    | #permutation                | [Advent of Code (2021)](https://adventofcode.com/2021/day/12) |
-| [⬇][dl-packet-decoder]  | [packet-decoder](packet-decoder/puzzle.adoc)   | 😅 (3/5)    | #message-pasrsing #protocol | [Advent of Code (2021)](https://adventofcode.com/2021/day/16) |
-| [⬇][dl-chiton]          | [chiton](chiton/puzzle.adoc)                   | 🤪 (4/5)    | #path-finding               | [Advent of Code (2021)](https://adventofcode.com/2021/day/15) |
-| [⬇][dl-reactor-reboot]  | [reactor-reboot](reactor-reboot/puzzle.adoc)   | 🤯 (5/5)    | #performance                | [Advent of Code (2021)](https://adventofcode.com/2021/day/22) |
+|                         | Name            | Complexity | Keywords                    | Source                                                        |
+| ----------------------- | --------------- | ---------- | --------------------------- | ------------------------------------------------------------- |
+| [⬇][dl-bingo]           | bingo           | 😀 (1/5)    | #basics                     | [Advent of Code (2021)](https://adventofcode.com/2021/day/4)  |
+| [⬇][dl-sea-cucumber]    | sea-cucumber    | 🤔 (2/5)    | #basics                     | [Advent of Code (2021)](https://adventofcode.com/2021/day/25) |
+| [⬇][dl-passage-pathing] | passage-pathing | 🤔 (2/5)    | #permutation                | [Advent of Code (2021)](https://adventofcode.com/2021/day/12) |
+| [⬇][dl-packet-decoder]  | packet-decoder  | 😅 (3/5)    | #message-pasrsing #protocol | [Advent of Code (2021)](https://adventofcode.com/2021/day/16) |
+| [⬇][dl-chiton]          | chiton          | 🤪 (4/5)    | #path-finding               | [Advent of Code (2021)](https://adventofcode.com/2021/day/15) |
+| [⬇][dl-reactor-reboot]  | reactor-reboot  | 🤯 (5/5)    | #performance                | [Advent of Code (2021)](https://adventofcode.com/2021/day/22) |
 
 ## 🧩 Puzzle structure
 A puzzle is usually made of the following files.
