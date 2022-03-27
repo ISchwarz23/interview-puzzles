@@ -9,6 +9,7 @@ The following table shows all available (and planned) puzzles and their characte
 | [⬇][dl-passage-pathing] | passage-pathing | 🤔 (2/5)    | #permutation                | [Advent of Code (2021)](https://adventofcode.com/2021/day/12) |
 | [⬇][dl-packet-decoder]  | packet-decoder  | 😅 (3/5)    | #message-pasrsing #protocol | [Advent of Code (2021)](https://adventofcode.com/2021/day/16) |
 | [⬇][dl-chiton]          | chiton          | 🤪 (4/5)    | #path-finding               | [Advent of Code (2021)](https://adventofcode.com/2021/day/15) |
+| [⬇][dl-reactor-reboot]  | reactor-reboot  | 🤯 (5/5)    | #performance                | [Advent of Code (2021)](https://adventofcode.com/2021/day/22) |
 
 ## 🧩 Puzzle structure
 A puzzle is usually made of the following files.
@@ -39,7 +40,6 @@ The following puzzles shall be added to this repo.
 | snailfish      | 🤪 (4/5)    | #rules #data-structure     | [Advent of Code (2021)](https://adventofcode.com/2021/day/18) |
 | beacon-scanner | 🤪 (4/5)    | #logic #geometry           | [Advent of Code (2021)](https://adventofcode.com/2021/day/19) |
 | dirac-dice     | 🤪 (4/5)    | #performance               | [Advent of Code (2021)](https://adventofcode.com/2021/day/21) |
-| reactor-reboot | 🤯 (5/5)    | #performance               | [Advent of Code (2021)](https://adventofcode.com/2021/day/22) |
 | amphipod       | 🤯 (5/5)    | #path-finding #performance | [Advent of Code (2021)](https://adventofcode.com/2021/day/23) |
 
 ## 🚧 TODO

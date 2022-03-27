@@ -29,6 +29,13 @@ jobs:
           path: |
             passage-pathing/
             !**/*.adoc
+      - name: Upload 'reactor-reboot'
+        uses: actions/upload-artifact@v3
+        with:
+          name: reactor-reboot
+          path: |
+            reactor-reboot/
+            !**/*.adoc
       - name: Upload 'sea-cucumber'
         uses: actions/upload-artifact@v3
         with:
