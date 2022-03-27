@@ -2,8 +2,8 @@
 :description: A programming puzzle that aims on writing clean code.
 :url-repo: https://github.com/ISchwarz23/interview-puzzles
 
-== Introduction/Explanation
-include::../explanation.adoc[]
+== Introduction
+include::../introduction.adoc[]
 
 == Things you should consider
 include::../things-to-consider.adoc[]
