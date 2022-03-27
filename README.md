@@ -44,13 +44,13 @@ The following puzzles shall be added to this repo.
 
 ## 🚧 TODO
 - add puzzles from 'puzzles to add' section
-- write github workflow step, that adds a download button to puzzle overview table
+- write github workflow step, that updates artifact download url
 - write github workflow step, which enables iterative use of `actions/upload-artifact@v3`
 
 
-[dl-bingo]: download-link
-[dl-sea-cucumber]: download-link
-[dl-passage-pathing]: download-link
-[dl-packet-decoder]: download-link
-[dl-chiton]: download-link
-[dl-reactor-reboot]: download-link
+[dl-bingo]: https://github.com/ISchwarz23/interview-puzzles/actions
+[dl-sea-cucumber]: https://github.com/ISchwarz23/interview-puzzles/actions
+[dl-passage-pathing]: https://github.com/ISchwarz23/interview-puzzles/actions
+[dl-packet-decoder]: https://github.com/ISchwarz23/interview-puzzles/actions
+[dl-chiton]: https://github.com/ISchwarz23/interview-puzzles/actions
+[dl-reactor-reboot]: https://github.com/ISchwarz23/interview-puzzles/actions
