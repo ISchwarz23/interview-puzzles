@@ -53,3 +53,4 @@ The following puzzles shall be added to this repo.
 [dl-passage-pathing]: download-link
 [dl-packet-decoder]: download-link
 [dl-chiton]: download-link
+[dl-reactor-reboot]: download-link
