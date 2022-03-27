@@ -2,19 +2,24 @@ name: Generate Puzzles
 on: [push]
 jobs:
   build:
+    name: Build '${{matrix.puzzle_name}}' puzzle
     runs-on: ubuntu-latest
     strategy:
       matrix:
         include:
           - puzzle_name: bingo
           - puzzle_name: chiton
+          - puzzle_name: packet-decoder
+          - puzzle_name: passage-pathing
+          - puzzle_name: reactor-reboot
+          - puzzle_name: sea-cucumber
     steps:
       - name: Set up git repository
         uses: actions/checkout@v2
       - name: Compile puzzles to PDF
         uses: lmoesle/asciidoc-action@latest
       - name: Create '${{matrix.puzzle_name}}' zip
-        run: zip -D -r ${{matrix.puzzle_name}}.zip ${{matrix.puzzle_name}}/ -x "*.adoc"
+        run: cd ${{matrix.puzzle_name}}; zip -D -r ${{matrix.puzzle_name}}.zip . -x "*.adoc"
       - name: Upload '${{matrix.puzzle_name}}' to release
         uses: svenstaro/upload-release-action@v2
         with:

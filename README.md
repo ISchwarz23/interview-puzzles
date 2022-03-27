@@ -38,14 +38,13 @@ These files contain the solution for the respective assignment. This can be used
 The puzzles are ready for download at Actions -> select latest workflow run -> Artifacts
 
 ## 🚧 TODO
-- write github workflow step, that updates artifact download url
-- write github workflow step, which enables iterative use of `actions/upload-artifact@v3`
 - add missing puzzles (the once without download button in the puzzle overview)
+- create asciidoc template which is more "programmer like"
 
 
-[dl-bingo]: https://github.com/ISchwarz23/interview-puzzles/actions
-[dl-sea-cucumber]: https://github.com/ISchwarz23/interview-puzzles/actions
-[dl-passage-pathing]: https://github.com/ISchwarz23/interview-puzzles/actions
-[dl-packet-decoder]: https://github.com/ISchwarz23/interview-puzzles/actions
+[dl-bingo]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/bingo
+[dl-sea-cucumber]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/sea-cucumer
+[dl-passage-pathing]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/passage-pathing
+[dl-packet-decoder]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/packet-decoder
 [dl-chiton]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/chiton
-[dl-reactor-reboot]: https://github.com/ISchwarz23/interview-puzzles/actions
+[dl-reactor-reboot]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/reactor-reboot
