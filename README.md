@@ -12,7 +12,7 @@ The following table shows all available (and planned) puzzles and their characte
 |                         | syntax-scoring  | 🤔 (2/5)    | #compiler                   | [Advent of Code (2021)](https://adventofcode.com/2021/day/10) |
 | [⬇][dl-packet-decoder]  | packet-decoder  | 😅 (3/5)    | #message-pasrsing #protocol | [Advent of Code (2021)](https://adventofcode.com/2021/day/16) |
 |                         | trench-map      | 😅 (3/5)    | #filter #optimization       | [Advent of Code (2021)](https://adventofcode.com/2021/day/20) |
-|                         | beacon-scanner  | 🤪 (4/5)    | #logic #geometry            | [Advent of Code (2021)](https://adventofcode.com/2021/day/19) |
+| [⬇][dl-beacon-scanner]  | beacon-scanner  | 🤪 (4/5)    | #logic #geometry            | [Advent of Code (2021)](https://adventofcode.com/2021/day/19) |
 | [⬇][dl-chiton]          | chiton          | 🤪 (4/5)    | #path-finding               | [Advent of Code (2021)](https://adventofcode.com/2021/day/15) |
 |                         | trick-shot      | 🤪 (4/5)    | #maths                      | [Advent of Code (2021)](https://adventofcode.com/2021/day/17) |
 |                         | snailfish       | 🤪 (4/5)    | #rules #data-structure      | [Advent of Code (2021)](https://adventofcode.com/2021/day/18) |
@@ -40,6 +40,7 @@ These files contain the solution for the respective assignment. This can be used
 
 
 [dl-amphipod]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/amphipod
+[dl-beacon-scanner]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/beacon-scanner
 [dl-bingo]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/bingo
 [dl-chiton]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/chiton
 [dl-packet-decoder]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/packet-decoder
