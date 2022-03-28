@@ -7,6 +7,7 @@ jobs:
     strategy:
       matrix:
         include:
+          - puzzle_name: amphipod
           - puzzle_name: bingo
           - puzzle_name: chiton
           - puzzle_name: packet-decoder
