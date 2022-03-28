@@ -15,6 +15,7 @@ jobs:
           - puzzle_name: passage-pathing
           - puzzle_name: reactor-reboot
           - puzzle_name: sea-cucumber
+          - puzzle_name: trench-map
     steps:
       - name: Set up git repository
         uses: actions/checkout@v2
