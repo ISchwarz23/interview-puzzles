@@ -8,17 +8,19 @@ The following table shows all available (and planned) puzzles and their characte
 | [⬇][dl-bingo]           | bingo           | 😀 (1/5)    | #basics                     | [Advent of Code (2021)](https://adventofcode.com/2021/day/4)  |
 | [⬇][dl-sea-cucumber]    | sea-cucumber    | 🤔 (2/5)    | #basics                     | [Advent of Code (2021)](https://adventofcode.com/2021/day/25) |
 | [⬇][dl-passage-pathing] | passage-pathing | 🤔 (2/5)    | #permutation                | [Advent of Code (2021)](https://adventofcode.com/2021/day/12) |
-|                         | lantern-fish    | 🤔 (2/5)    | #basics #rule-sets          | [Advent of Code (2021)](https://adventofcode.com/2021/day/6)  |
-|                         | syntax-scoring  | 🤔 (2/5)    | #compiler                   | [Advent of Code (2021)](https://adventofcode.com/2021/day/10) |
 | [⬇][dl-packet-decoder]  | packet-decoder  | 😅 (3/5)    | #message-pasrsing #protocol | [Advent of Code (2021)](https://adventofcode.com/2021/day/16) |
 | [⬇][dl-trench-map]      | trench-map      | 😅 (3/5)    | #filter #optimization       | [Advent of Code (2021)](https://adventofcode.com/2021/day/20) |
 | [⬇][dl-beacon-scanner]  | beacon-scanner  | 🤪 (4/5)    | #logic #geometry            | [Advent of Code (2021)](https://adventofcode.com/2021/day/19) |
 | [⬇][dl-chiton]          | chiton          | 🤪 (4/5)    | #path-finding               | [Advent of Code (2021)](https://adventofcode.com/2021/day/15) |
-|                         | trick-shot      | 🤪 (4/5)    | #maths                      | [Advent of Code (2021)](https://adventofcode.com/2021/day/17) |
-|                         | snailfish       | 🤪 (4/5)    | #rules #data-structure      | [Advent of Code (2021)](https://adventofcode.com/2021/day/18) |
-|                         | dirac-dice      | 🤪 (4/5)    | #performance                | [Advent of Code (2021)](https://adventofcode.com/2021/day/21) |
+| [⬇][dl-snailfish]       | snailfish       | 🤪 (4/5)    | #rules #data-structure      | [Advent of Code (2021)](https://adventofcode.com/2021/day/18) |
 | [⬇][dl-reactor-reboot]  | reactor-reboot  | 🤯 (5/5)    | #performance                | [Advent of Code (2021)](https://adventofcode.com/2021/day/22) |
 | [⬇][dl-amphipod]        | amphipod        | 🤯 (5/5)    | #path-finding #performance  | [Advent of Code (2021)](https://adventofcode.com/2021/day/23) |
+<!--
+|                         | lantern-fish    | 🤔 (2/5)    | #basics #rule-sets          | [Advent of Code (2021)](https://adventofcode.com/2021/day/6)  |
+|                         | syntax-scoring  | 🤔 (2/5)    | #compiler                   | [Advent of Code (2021)](https://adventofcode.com/2021/day/10) |
+|                         | dirac-dice      | 🤪 (4/5)    | #performance                | [Advent of Code (2021)](https://adventofcode.com/2021/day/21) |
+|                         | trick-shot      | 🤪 (4/5)    | #maths                      | [Advent of Code (2021)](https://adventofcode.com/2021/day/17) |
+-->
 
 ## 🧩 Puzzle structure
 A puzzle is usually made of the following files.
@@ -47,4 +49,5 @@ These files contain the solution for the respective assignment. This can be used
 [dl-passage-pathing]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/passage-pathing
 [dl-reactor-reboot]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/reactor-reboot
 [dl-sea-cucumber]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/sea-cucumer
+[dl-snailfish]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/snailfish
 [dl-trench-map]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/trench-map
