@@ -25,7 +25,7 @@ jobs:
       - name: Compile puzzles to PDF
         uses: lmoesle/asciidoc-action@latest
       - name: Create '${{matrix.puzzle_name}}' zip
-        run: zip -D -r ${{matrix.puzzle_name}}.zip ${{matrix.puzzle_name}}/* -x "*.adoc"
+        run: zip -j -r ${{matrix.puzzle_name}}.zip ${{matrix.puzzle_name}}/* -x "*.adoc"
       - name: Upload '${{matrix.puzzle_name}}' to release
         uses: svenstaro/upload-release-action@v2
         with:
