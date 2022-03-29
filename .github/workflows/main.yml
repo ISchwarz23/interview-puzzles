@@ -32,5 +32,5 @@ jobs:
           overwrite: true
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ${{matrix.puzzle_name}}.zip
-          asset_name: ${{matrix.puzzle_name}}
+          asset_name: ${{matrix.puzzle_name}}.zip
           tag: latest

@@ -41,13 +41,13 @@ These files contain the solution for the respective assignment. This can be used
 - create asciidoc template which is more "programmer like"
 
 
-[dl-amphipod]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/amphipod
-[dl-beacon-scanner]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/beacon-scanner
-[dl-bingo]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/bingo
-[dl-chiton]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/chiton
-[dl-packet-decoder]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/packet-decoder
-[dl-passage-pathing]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/passage-pathing
-[dl-reactor-reboot]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/reactor-reboot
-[dl-sea-cucumber]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/sea-cucumer
-[dl-snailfish]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/snailfish
-[dl-trench-map]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/trench-map
+[dl-amphipod]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/amphipod.zip
+[dl-beacon-scanner]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/beacon-scanner.zip
+[dl-bingo]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/bingo.zip
+[dl-chiton]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/chiton.zip
+[dl-packet-decoder]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/packet-decoder.zip
+[dl-passage-pathing]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/passage-pathing.zip
+[dl-reactor-reboot]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/reactor-reboot.zip
+[dl-sea-cucumber]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/sea-cucumer.zip
+[dl-snailfish]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/snailfish.zip
+[dl-trench-map]: https://github.com/ISchwarz23/interview-puzzles/releases/download/latest/trench-map.zip
