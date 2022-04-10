@@ -1,4 +1,4 @@
-= Reactor Reboot
+= Amphipod
 :description: A programming puzzle that aims on writing clean code even for complex issues.
 :url-repo: https://github.com/ISchwarz23/interview-puzzles
 
