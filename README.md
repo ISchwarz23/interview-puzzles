@@ -36,6 +36,12 @@ This file contains the input data for the assignments explained in the puzzle de
 ### solution-assignment-*.txt
 These files contain the solution for the respective assignment. This can be used to check, if your solutions produces the correct results.
 
+## 🚀 Templates
+To speed up development, you can use one of the starter projects for your favorite programming language.
+- [TypeScript](https://github.com/ISchwarz23/starter-project-ts)
+- Kotlin
+- Java
+
 ## 🚧 TODO
 - add missing puzzles (the once without download button in the puzzle overview)
 - create asciidoc template which is more "programmer like"
