@@ -26,7 +26,7 @@ The following table shows all available (and planned) puzzles and their characte
 A puzzle is usually made of the following files.
 
 ### puzzle.pdf (generated from puzzle.adoc)
-This file starts with a general remark about the expected quality of the solution (like readability over high spphisticated solution).  
+This file starts with a general remark about the expected quality of the solution (like readability over high sophisticated solution).  
 It also contains a detailed description of the problem to solve. Most of the times this section also contains multiple examples, to avoid misunderstandings.
 Lastly it contains the assignments to be solved. Usually it is splitted in two assignments, where the second one is harder than the first one.
 
